@@ -1,0 +1,32 @@
+{
+    "name": "codebooth/laravel-query-filters",
+    "description": "Filter models the Eloquent way",
+    "keywords": [
+        "query-filters",
+        "query-builder",
+        "eloquent",
+        "laravel",
+        "codebooth"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeBooth\\QueryFilters\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CodeBooth\\QueryFilters\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    }
+}
